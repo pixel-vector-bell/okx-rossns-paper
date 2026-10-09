@@ -34,7 +34,7 @@
 <body>
 <header>
   <h1>OKX Ross (no near-high scale, no aggressive) <span class="paper">PAPER · ross-ns-v2 · 1m breakout only · frozen to 50 sells</span></h1>
-  <div class="sub">Updated 2026-10-09 20:37:35 UTC · PAPER · 1m breakout only (aggressive logged, not taken) · NO scale_prior_high · 30% through t1 · trail rest · fail-fast · frozen to 50 sells</div>
+  <div class="sub">Updated 2026-10-09 20:39:36 UTC · PAPER · 1m breakout only (aggressive logged, not taken) · NO scale_prior_high · 30% through t1 · trail rest · fail-fast · frozen to 50 sells</div>
 </header>
 <div class="grid">
   <div class="stat"><div class="k">Equity</div><div class="v">$3,000.00</div></div>
@@ -54,8 +54,16 @@
     <tbody><tr><td colspan='7' class='muted'>No live watches — full book scanned, nothing triggered.</td></tr></tbody></table>
   </div>
   <div>
-    <h2>Tape (latest 24)</h2>
-    <div class='muted'>No fills yet.</div>
+    <style>
+  .tape-tbl { width:100%; border-collapse:collapse; background:var(--card,#15171c); border:1px solid var(--line,#2a2e36); border-radius:10px; }
+  .tape-tbl th, .tape-tbl td { text-align:left; padding:7px 10px; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .tape-tbl th { font-size:11px; color:var(--mut,#8b909a); text-transform:uppercase; letter-spacing:.05em; border-bottom:1px solid var(--line,#2a2e36); }
+  .tape-tbl tr+tr td { border-top:1px solid var(--line,#2a2e36); }
+  .tape-tbl .mono { font-variant-numeric:tabular-nums; }
+  .charts { display:grid; gap:16px; }
+  .chart-card { background:var(--card,#15171c); border:1px solid var(--line,#2a2e36); border-radius:10px; padding:10px 12px; }
+  .tape-svg { display:block; }
+</style><div><h2>Round trips</h2><table class='tape-tbl'><thead><tr><th>Entry UTC</th><th>Exit UTC</th><th>Pair</th><th></th><th>Entry rate</th><th>Exit rate</th><th>$ bought</th><th>Net %</th><th>Net $</th><th>Exit reason</th></tr></thead><tbody><tr><td colspan='10' class='muted'>No round trips yet.</td></tr></tbody></table></div><div><h2>Every fill</h2><table class='tape-tbl'><thead><tr><th>Time (UTC)</th><th>Side</th><th>Pair</th><th>Rate</th><th>Qty</th><th>Notional $</th><th>P&amp;L %</th><th>P&amp;L $</th><th>Reason</th></tr></thead><tbody><tr><td colspan='9' class='muted'>No fills yet.</td></tr></tbody></table></div>
   </div>
 </div>
 </body></html>
